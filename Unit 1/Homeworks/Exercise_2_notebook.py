@@ -9,7 +9,7 @@ file.write(students + '\nMohammed Ali\nBruce Wayne\nSimon Minter')
 
 #3) Reading the n first lines
 i=0
-n=5
+n=int(input("Chose the number of lines :"))
 file=open(".\student_names.txt","r")
 print("The 5 first lines are :")
 for line in file:
