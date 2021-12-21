@@ -51,7 +51,7 @@ vect=[1,3,7,9]
 print(Sum(vect))
 
 #7)Max three numbers
-#this function also exists "max" but it can take more/less than 3 so we remake it to take exactly 3 without using "max"
+#this function also exists "max" but it can take more/less than 3 arguments so we remake it to take exactly 3 without using "max"
 def max_3(a,b,c):
     if a>b :
         if a>c :
