@@ -16,7 +16,8 @@ class Vehicle:
         self.mileag_instance=mileage_instance
 
 #3) Empty vehicle
-
+class Vehicle:
+    pass
 
 #4) Child Bus
 class Child_bus(Vehicle):
